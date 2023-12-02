@@ -1005,15 +1005,6 @@ public class Main {
             "eight1eighteight8\n" +
             "8four419eighteight1bpv\n";
     public static void main(String[] args) {
-        input = input.replaceAll("one", "1");
-        input = input.replaceAll("two", "2");
-        input = input.replaceAll("three", "3");
-        input = input.replaceAll("four", "4");
-        input = input.replaceAll("five", "5");
-        input = input.replaceAll("six", "6");
-        input = input.replaceAll("seven", "7");
-        input = input.replaceAll("eight", "8");
-        input = input.replaceAll("nine", "9");
         Scanner scanner = new Scanner(input);
         int total = 0;
 
@@ -1022,7 +1013,6 @@ public class Main {
             int firstDigit = 0;
             int lastDigit = 0;
             boolean firstFound = false;
-            boolean lastFound = false;
             for (int i = 0; i < line.length(); i++) {
                 if (Character.isDigit(line.charAt(i)) && !firstFound) {
                     firstDigit = Character.getNumericValue(line.charAt(i));
@@ -1030,15 +1020,10 @@ public class Main {
                 }
                 if (Character.isDigit(line.charAt(i)) && firstFound) {
                     lastDigit = Character.getNumericValue(line.charAt(i));
-                    lastFound = true;
                 }
                 if (i == line.length() - 1) {
-                    if (Character.isDigit(line.charAt(i))) {
-                        lastDigit = Character.getNumericValue(line.charAt(i));
-                    }
-                    int number = lastFound ? firstDigit * 10 + lastDigit : firstDigit * 10 + firstDigit;
+                    int number = firstDigit * 10 + lastDigit;
                     total += number;
-                    break;
                 }
             }
         }
