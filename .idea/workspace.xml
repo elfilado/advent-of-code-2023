@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ad142ff-b913-405c-b499-892e30ec11d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day/two/first/exercise/DayTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day/two/first/exercise/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8ad142ff-b913-405c-b499-892e30ec11d4" name="Changes" comment="Day 2">
+      <change afterPath="$PROJECT_DIR$/day/one/first/exercise/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day/one/first/exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day/one/first/exercise/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day/one/second/exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day/one/second/exercise/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day/one/first/exercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day/one/first/exercise/DayOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day/two/first/exercise/DayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/day/two/first/exercise/DayTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -61,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DayTwo">
+  <component name="RunManager" selected="Application.day.one.first.exercise.DayOne">
     <configuration name="DayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstExercise.DayOne" />
       <module name="day1" />
@@ -95,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day.one.first.exercise.DayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day.one.first.exercise.DayOne" />
+      <module name="day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day.one.first.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="day.one.second.exercise.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day.one.second.exercise.Main" />
       <module name="day1" />
@@ -110,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day.one.first.exercise.DayOne" />
         <item itemvalue="Application.DayTwo" />
         <item itemvalue="Application.day.one.second.exercise.Main" />
         <item itemvalue="Application.Main" />
@@ -127,11 +139,35 @@
       <updated>1701419326655</updated>
       <workItem from="1701419327791" duration="11361000" />
       <workItem from="1701454125033" duration="3888000" />
-      <workItem from="1701510798118" duration="3554000" />
+      <workItem from="1701510798118" duration="4778000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 2">
+      <option name="closed" value="true" />
+      <created>1701546034014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701546034014</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2" />
   </component>
 </project>

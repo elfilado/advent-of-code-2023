@@ -11,17 +11,15 @@ public class DayTwo {
     static final int GREEN_CUBES = 13;
     static final int BLUE_CUBES = 14;
     static final String FILE = "day/two/first/exercise/input.txt";
-    static int TOTAL_OF_GAME_IDS = 0;
+    static int totalOfGameIds = 0;
     public static void main(String[] args) throws RuntimeException, IOException {
-
-
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 processGame(line);
             }
         }
-        System.out.println(TOTAL_OF_GAME_IDS);
+        System.out.println(totalOfGameIds);
     }
 
     /**
@@ -68,7 +66,7 @@ public class DayTwo {
             }
         }
         if (gameIdOfCurrentLine != -1) {
-            TOTAL_OF_GAME_IDS += gameIdOfCurrentLine;
+            totalOfGameIds += gameIdOfCurrentLine;
         }
     }
 
