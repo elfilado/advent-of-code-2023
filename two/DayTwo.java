@@ -1,4 +1,4 @@
-package day.two.first.exercise;
+package two;
 
 import java.io.*;
 import java.util.regex.Matcher;
@@ -10,7 +10,7 @@ public class DayTwo {
     static final int RED_CUBES = 12;
     static final int GREEN_CUBES = 13;
     static final int BLUE_CUBES = 14;
-    static final String FILE = "day/two/first/exercise/input.txt";
+    static final String FILE = "two/input.txt";
     static int totalOfGameIds = 0;
     public static void main(String[] args) throws RuntimeException, IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE))) {
@@ -60,7 +60,6 @@ public class DayTwo {
                         break;
                     }
                 }
-
             } else {
                 break;
             }

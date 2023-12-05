@@ -1,13 +1,11 @@
-package day.one.first.exercise;
+package day.one;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Scanner;
 
 public class DayOne {
-    static final String FILE = "day/one/first/exercise/input.txt";
+    static final String FILE = "day/one/input.txt";
     static int total = 0;
     public static void main(String[] args) throws IOException {
 
