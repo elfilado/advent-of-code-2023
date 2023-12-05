@@ -51,7 +51,7 @@ public class DayTwoPartTwo {
                 }
             }
         }
-        sum += RED_CUBES * BLUE_CUBES * GREEN_CUBES;
+        sum += redCubes * blueCubes * greenCubes;
         total += sum;
     }
 }
