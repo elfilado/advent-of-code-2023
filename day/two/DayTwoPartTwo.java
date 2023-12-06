@@ -1,15 +1,13 @@
-package two;
+package day.two;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import static java.lang.Integer.parseInt;
 
 public class DayTwoPartTwo {
-    static final String FILE = "two/input.txt";
+    static final String FILE = "day/two/input.txt";
     static int total = 0;
     public static void main(String[] args) throws RuntimeException, IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE))) {

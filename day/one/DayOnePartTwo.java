@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class DayOnePartTwo {
     static final String FILE = "day/one/input.txt";
@@ -12,7 +11,7 @@ public class DayOnePartTwo {
     static final HashMap<String, String> VALUES = new HashMap<>();
     static void fillMap() {
         VALUES.put("one", "1");
-        VALUES.put("two", "2");
+        VALUES.put("day/two", "2");
         VALUES.put("three", "3");
         VALUES.put("four", "4");
         VALUES.put("five", "5");
